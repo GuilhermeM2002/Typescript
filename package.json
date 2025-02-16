@@ -1,23 +1,11 @@
 {
   "name": "typescript",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GuilhermeM2002/Typescript.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/GuilhermeM2002/Typescript/issues"
-  },
-  "homepage": "https://github.com/GuilhermeM2002/Typescript#readme",
   "devDependencies": {
-    "typescript": "^5.7.3"
+    "typescript": "^5.0.0"
   }
 }
